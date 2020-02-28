@@ -1,5 +1,5 @@
 #!/bin/bash
-# multipass delete $(echo node{1..4})
+# multipass delete $(echo node{1..3})
 NODES=$(echo node{1..4})
 
 # Create containers
